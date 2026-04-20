@@ -917,6 +917,49 @@
 		E9F54F5E25802D5E0034795E /* InsulinType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F54F5D25802D5E0034795E /* InsulinType.swift */; };
 		E9F54FBA258052130034795E /* InsulinType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F54F5D25802D5E0034795E /* InsulinType.swift */; };
 		E9F54FC62581C50D0034795E /* ExpandableDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F54FC52581C50C0034795E /* ExpandableDatePicker.swift */; };
+		WA7C40050000000000000001 /* AlertSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D841AAC24577EE10069DBFF /* AlertSoundPlayer.swift */; };
+		WA7C40050000000000000002 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498D7323386C3200DAA9B9 /* AnalyticsService.swift */; };
+		WA7C40050000000000000003 /* AutomaticDoseRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C191D26225B3815000C26C0B /* AutomaticDoseRecommendation.swift */; };
+		WA7C40050000000000000004 /* CgmEventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1893D392AACBD81001947A2 /* CgmEventStore.swift */; };
+		WA7C40050000000000000005 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187338029B9486100519CDF /* Comparable.swift */; };
+		WA7C40050000000000000006 /* CorrectionRangeOverrides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1FCE2624BE4DE2000300A8 /* CorrectionRangeOverrides.swift */; };
+		WA7C40050000000000000007 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187338929B9486200519CDF /* DateFormatter.swift */; };
+		WA7C40050000000000000008 /* DoseMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16BC0B42A5FA9D200BDC713 /* DoseMath.swift */; };
+		WA7C40050000000000000009 /* DosingDecisionObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95A1D812460BBDC0079378D /* DosingDecisionObject+CoreDataProperties.swift */; };
+		WA7C4005000000000000000A /* DosingDecisionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919889E2355016B00B75EEE /* DosingDecisionStore.swift */; };
+		WA7C4005000000000000000B /* FavoriteFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142CB7602A60C0440075748A /* FavoriteFood.swift */; };
+		WA7C4005000000000000000C /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C896C24D4BF75002FA994 /* FloatingPoint.swift */; };
+		WA7C4005000000000000000D /* GlucosePredictionAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D476B72A8ED3E8002C1C87 /* GlucosePredictionAlgorithm.swift */; };
+		WA7C4005000000000000000E /* GlucoseRangeSchedule+SafeBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B33264293ED44C009B8746 /* GlucoseRangeSchedule+SafeBounds.swift */; };
+		WA7C4005000000000000000F /* Guardrail+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187338529B9486200519CDF /* Guardrail+Settings.swift */; };
+		WA7C40050000000000000010 /* Guardrail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F6E30E244A1A5D00CB9E15 /* Guardrail.swift */; };
+		WA7C40050000000000000011 /* IntegralRetrospectiveCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19E77672A61FD8A003F06C5 /* IntegralRetrospectiveCorrection.swift */; };
+		WA7C40050000000000000012 /* LoggingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498D7123386C3200DAA9B9 /* LoggingService.swift */; };
+		WA7C40050000000000000013 /* LoopAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D476B62A8ED3E8002C1C87 /* LoopAlgorithm.swift */; };
+		WA7C40050000000000000014 /* LoopAlgorithmInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13ACA092AC077F000F05D08 /* LoopAlgorithmInput.swift */; };
+		WA7C40050000000000000015 /* LoopAlgorithmSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13ACA0A2AC077F000F05D08 /* LoopAlgorithmSettings.swift */; };
+		WA7C40050000000000000016 /* LoopPluginBundleKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DA83E22E8D88F008624C2 /* LoopPluginBundleKey.swift */; };
+		WA7C40050000000000000017 /* LoopPredictionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D476B82A8ED3E8002C1C87 /* LoopPredictionInput.swift */; };
+		WA7C40050000000000000018 /* LoopPredictionOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13ACA0B2AC077F000F05D08 /* LoopPredictionOutput.swift */; };
+		WA7C40050000000000000019 /* ManualBolusRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C140DFFE260276BF000A4FF7 /* ManualBolusRecommendation.swift */; };
+		WA7C4005000000000000001A /* NewFavoriteFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D906ED2A84579B006EB79A /* NewFavoriteFood.swift */; };
+		WA7C4005000000000000001B /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A985464E251449FE0099C1A6 /* NotificationSettings.swift */; };
+		WA7C4005000000000000001C /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A8D424C896E100AB8DB9 /* Prescription.swift */; };
+		WA7C4005000000000000001D /* PumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432CF87220D774220066B889 /* PumpManager.swift */; };
+		WA7C4005000000000000001E /* RemoteActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A0C4629C78A270067DE0F /* RemoteActionDelegate.swift */; };
+		WA7C4005000000000000001F /* RemoteDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498D7523386C3300DAA9B9 /* RemoteDataService.swift */; };
+		WA7C40050000000000000020 /* RetrospectiveCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19E77682A61FD8A003F06C5 /* RetrospectiveCorrection.swift */; };
+		WA7C40050000000000000021 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9498D7623386C3300DAA9B9 /* Service.swift */; };
+		WA7C40050000000000000022 /* SettingsObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A912BE2A245B9E8600CBE199 /* SettingsObject+CoreDataProperties.swift */; };
+		WA7C40050000000000000023 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919889B2354E5EB00B75EEE /* SettingsStore.swift */; };
+		WA7C40050000000000000024 /* StandardRetrospectiveCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19E77692A61FD8A003F06C5 /* StandardRetrospectiveCorrection.swift */; };
+		WA7C40050000000000000025 /* StatefulPluggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D72472AA775CB00A4F783 /* StatefulPluggable.swift */; };
+		WA7C40050000000000000026 /* StoredFavoriteFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D906EF2A8457AB006EB79A /* StoredFavoriteFood.swift */; };
+		WA7C40050000000000000027 /* StoredInsulinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CAB9E826A3254800A57273 /* StoredInsulinModel.swift */; };
+		WA7C40050000000000000028 /* TherapySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1FCE2824BE4F11000300A8 /* TherapySetting.swift */; };
+		WA7C40050000000000000029 /* TherapySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9086B3824B3CB4B0062F5C8 /* TherapySettings.swift */; };
+		WA7C4005000000000000002A /* UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187339729B9488300519CDF /* UUID.swift */; };
+		WA7C4005000000000000002B /* VersionUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63DEA226E94FDF00F46FA5 /* VersionUpdate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -4563,6 +4606,49 @@
 				A9E675E322713F4700E25293 /* CarbStoreError.swift in Sources */,
 				A9E675E422713F4700E25293 /* HKQuantity.swift in Sources */,
 				A9BD318324F4548900994B83 /* Modelv3EntityMigrationPolicy.swift in Sources */,
+				WA7C40050000000000000001 /* AlertSoundPlayer.swift in Sources */,
+				WA7C40050000000000000002 /* AnalyticsService.swift in Sources */,
+				WA7C40050000000000000003 /* AutomaticDoseRecommendation.swift in Sources */,
+				WA7C40050000000000000004 /* CgmEventStore.swift in Sources */,
+				WA7C40050000000000000005 /* Comparable.swift in Sources */,
+				WA7C40050000000000000006 /* CorrectionRangeOverrides.swift in Sources */,
+				WA7C40050000000000000007 /* DateFormatter.swift in Sources */,
+				WA7C40050000000000000008 /* DoseMath.swift in Sources */,
+				WA7C40050000000000000009 /* DosingDecisionObject+CoreDataProperties.swift in Sources */,
+				WA7C4005000000000000000A /* DosingDecisionStore.swift in Sources */,
+				WA7C4005000000000000000B /* FavoriteFood.swift in Sources */,
+				WA7C4005000000000000000C /* FloatingPoint.swift in Sources */,
+				WA7C4005000000000000000D /* GlucosePredictionAlgorithm.swift in Sources */,
+				WA7C4005000000000000000E /* GlucoseRangeSchedule+SafeBounds.swift in Sources */,
+				WA7C4005000000000000000F /* Guardrail+Settings.swift in Sources */,
+				WA7C40050000000000000010 /* Guardrail.swift in Sources */,
+				WA7C40050000000000000011 /* IntegralRetrospectiveCorrection.swift in Sources */,
+				WA7C40050000000000000012 /* LoggingService.swift in Sources */,
+				WA7C40050000000000000013 /* LoopAlgorithm.swift in Sources */,
+				WA7C40050000000000000014 /* LoopAlgorithmInput.swift in Sources */,
+				WA7C40050000000000000015 /* LoopAlgorithmSettings.swift in Sources */,
+				WA7C40050000000000000016 /* LoopPluginBundleKey.swift in Sources */,
+				WA7C40050000000000000017 /* LoopPredictionInput.swift in Sources */,
+				WA7C40050000000000000018 /* LoopPredictionOutput.swift in Sources */,
+				WA7C40050000000000000019 /* ManualBolusRecommendation.swift in Sources */,
+				WA7C4005000000000000001A /* NewFavoriteFood.swift in Sources */,
+				WA7C4005000000000000001B /* NotificationSettings.swift in Sources */,
+				WA7C4005000000000000001C /* Prescription.swift in Sources */,
+				WA7C4005000000000000001D /* PumpManager.swift in Sources */,
+				WA7C4005000000000000001E /* RemoteActionDelegate.swift in Sources */,
+				WA7C4005000000000000001F /* RemoteDataService.swift in Sources */,
+				WA7C40050000000000000020 /* RetrospectiveCorrection.swift in Sources */,
+				WA7C40050000000000000021 /* Service.swift in Sources */,
+				WA7C40050000000000000022 /* SettingsObject+CoreDataProperties.swift in Sources */,
+				WA7C40050000000000000023 /* SettingsStore.swift in Sources */,
+				WA7C40050000000000000024 /* StandardRetrospectiveCorrection.swift in Sources */,
+				WA7C40050000000000000025 /* StatefulPluggable.swift in Sources */,
+				WA7C40050000000000000026 /* StoredFavoriteFood.swift in Sources */,
+				WA7C40050000000000000027 /* StoredInsulinModel.swift in Sources */,
+				WA7C40050000000000000028 /* TherapySetting.swift in Sources */,
+				WA7C40050000000000000029 /* TherapySettings.swift in Sources */,
+				WA7C4005000000000000002A /* UUID.swift in Sources */,
+				WA7C4005000000000000002B /* VersionUpdate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5278,6 +5364,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
@@ -5311,6 +5398,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
