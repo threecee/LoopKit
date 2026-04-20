@@ -1,0 +1,52 @@
+name: Build matrix (iOS + watchOS)
+
+on:
+  push:
+    branches: [watchos-support]
+  pull_request:
+    branches: [watchos-support, dev, main]
+
+jobs:
+  build:
+    runs-on: macos-14
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: "iOS build"
+            scheme: Shared
+            destination: "generic/platform=iOS"
+          - name: "watchOS build"
+            scheme: Shared-watchOS
+            destination: "generic/platform=watchOS"
+    name: ${{ matrix.name }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_16.4.app
+      - name: Build
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project LoopKit.xcodeproj \
+            -scheme "${{ matrix.scheme }}" \
+            -destination "${{ matrix.destination }}" \
+            | xcpretty || (cat && exit 1)
+
+  test-ios:
+    runs-on: macos-14
+    name: iOS tests
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_16.4.app
+      - name: Run iOS tests
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project LoopKit.xcodeproj \
+            -scheme Shared \
+            -destination "platform=iOS Simulator,name=iPhone 16" \
+            | xcpretty || (cat && exit 1)
